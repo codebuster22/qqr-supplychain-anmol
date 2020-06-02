@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import QRCode from 'qrcode.react';
 import Form from './Form.js'
+import Scan from "./Scan";
 
 class App extends Component {
 
@@ -30,12 +31,19 @@ class App extends Component {
 
   handleOnSubmit = async () => {
     console.log("Start Submit")
+    console.log("State data at handleOnSubmit before post",this.state);
+    const dataToBeSent = JSON.stringify(this.state);
+    console.log("json stringify at handleOnSubmit after post",dataToBeSent)
     const result = await fetch('http://localhost:3001/fillDetails',{
       method: 'POST',
-      body: JSON.stringify(this.state),
+      headers: {'Content-Type': 'application/json'},
+      body: dataToBeSent,
     })
+    console.log("State data at handleOnSubmit after post",this.state)
     const data = await result.json();
-    alert("Data Saved");
+    if(data.flag){
+      alert("Data Saved");
+    }
     this.setState({
       consigner: "",
       consignee: "",
@@ -63,6 +71,7 @@ class App extends Component {
           ):(
               <div className={'app-scan'}>
                 <h1>Scan QR Code</h1>
+                <Scan routeChange={this.handleRouteChange}/>
               </div>
           )}
         </div>
