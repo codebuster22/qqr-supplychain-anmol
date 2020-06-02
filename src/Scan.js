@@ -18,14 +18,22 @@ class Scan extends Component {
                 result: data,
                 scan: false,
             })
+            console.log(data);
             this.fetchOrderDetails(data);
         }
     }
 
     fetchOrderDetails = async (ewb) => {
-        const result = await fetch('http://localhost:3001/profile/'+ewb);
-        const data = await result.json();
-        this.setState({data:data});
+        try{
+            const result = await fetch('https://dry-atoll-26666.herokuapp.com/profile/'+ewb,{
+                mode: 'cors',
+            });
+            const data = await result.json();
+            this.setState({data:data});
+        }catch (e) {
+            alert('Invalid Code');
+            console.log(e);
+        }
     }
 
     handleError = err => {

@@ -34,7 +34,7 @@ class App extends Component {
     console.log("State data at handleOnSubmit before post",this.state);
     const dataToBeSent = JSON.stringify(this.state);
     console.log("json stringify at handleOnSubmit after post",dataToBeSent)
-    const result = await fetch('http://localhost:3001/fillDetails',{
+    const result = await fetch('https://dry-atoll-26666.herokuapp.com/fillDetails',{
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: dataToBeSent,
@@ -51,7 +51,6 @@ class App extends Component {
       date: "",
       from: "",
       to: "",
-      EWB: 0
     })
   }
 
