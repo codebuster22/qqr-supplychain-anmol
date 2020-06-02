@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/github.io/qr-supplychain/static/css/main.5944b112.chunk.css",
-    "main.js": "/github.io/qr-supplychain/static/js/main.e732fbcc.chunk.js",
-    "main.js.map": "/github.io/qr-supplychain/static/js/main.e732fbcc.chunk.js.map",
-    "runtime-main.js": "/github.io/qr-supplychain/static/js/runtime-main.180937f3.js",
-    "runtime-main.js.map": "/github.io/qr-supplychain/static/js/runtime-main.180937f3.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/github.io/qr-supplychain/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.10e13795.chunk.js": "/github.io/qr-supplychain/static/js/2.10e13795.chunk.js",
-    "static/js/2.10e13795.chunk.js.map": "/github.io/qr-supplychain/static/js/2.10e13795.chunk.js.map",
-    "index.html": "/github.io/qr-supplychain/index.html",
-    "precache-manifest.1af07a7f241602cba0ff082bc4af4df2.js": "/github.io/qr-supplychain/precache-manifest.1af07a7f241602cba0ff082bc4af4df2.js",
-    "service-worker.js": "/github.io/qr-supplychain/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/github.io/qr-supplychain/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.5944b112.chunk.css.map": "/github.io/qr-supplychain/static/css/main.5944b112.chunk.css.map",
-    "static/js/2.10e13795.chunk.js.LICENSE.txt": "/github.io/qr-supplychain/static/js/2.10e13795.chunk.js.LICENSE.txt"
+    "main.css": "/qr-supplychain/static/css/main.5944b112.chunk.css",
+    "main.js": "/qr-supplychain/static/js/main.09e39a90.chunk.js",
+    "main.js.map": "/qr-supplychain/static/js/main.09e39a90.chunk.js.map",
+    "runtime-main.js": "/qr-supplychain/static/js/runtime-main.040398bc.js",
+    "runtime-main.js.map": "/qr-supplychain/static/js/runtime-main.040398bc.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/qr-supplychain/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.10e13795.chunk.js": "/qr-supplychain/static/js/2.10e13795.chunk.js",
+    "static/js/2.10e13795.chunk.js.map": "/qr-supplychain/static/js/2.10e13795.chunk.js.map",
+    "index.html": "/qr-supplychain/index.html",
+    "precache-manifest.1a063e365d035a6cf8c2831b98bce4a7.js": "/qr-supplychain/precache-manifest.1a063e365d035a6cf8c2831b98bce4a7.js",
+    "service-worker.js": "/qr-supplychain/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/qr-supplychain/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.5944b112.chunk.css.map": "/qr-supplychain/static/css/main.5944b112.chunk.css.map",
+    "static/js/2.10e13795.chunk.js.LICENSE.txt": "/qr-supplychain/static/js/2.10e13795.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.180937f3.js",
+    "static/js/runtime-main.040398bc.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.10e13795.chunk.js",
     "static/css/main.5944b112.chunk.css",
-    "static/js/main.e732fbcc.chunk.js"
+    "static/js/main.09e39a90.chunk.js"
   ]
 }
