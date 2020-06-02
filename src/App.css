@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+html{
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+
+.app-create,.app-scan{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  width: 80%;
+  margin: 5rem auto;
+  -webkit-box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+  -moz-box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+  box-shadow: -9px -10px 32px -15px rgba(0,0,0,0.52);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
